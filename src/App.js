@@ -1,14 +1,15 @@
 import './App.css';
-import Logo from './components/logo'
+
+import Header from './components/header'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <Logo></Logo>
-      </header>
+      <Header/>
     </div>
   );
 }
 
 export default App;
+
+// Hydra Dominatus
